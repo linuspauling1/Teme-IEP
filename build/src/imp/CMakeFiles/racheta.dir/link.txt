@@ -1,0 +1,2 @@
+/usr/bin/ar qc libracheta.a CMakeFiles/racheta.dir/racheta.cpp.o
+/usr/bin/ranlib libracheta.a
