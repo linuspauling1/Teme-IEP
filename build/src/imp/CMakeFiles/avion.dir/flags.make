@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/paul/Desktop/tema/src/imp/../include
+CXX_INCLUDES = -I/home/paul/Desktop/Teme-IEP/src/imp/../include
 
 CXX_FLAGS = -std=gnu++11
 

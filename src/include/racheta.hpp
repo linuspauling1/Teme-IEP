@@ -29,4 +29,4 @@ class Racheta{
 		short getComponente();
 		long double getCarburant();
 		int getAstronauti();
-}
+};

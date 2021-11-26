@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paul/Desktop/tema
+CMAKE_SOURCE_DIR = /home/paul/Desktop/Teme-IEP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paul/Desktop/tema/build
+CMAKE_BINARY_DIR = /home/paul/Desktop/Teme-IEP/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/Desktop/tema/build/CMakeFiles /home/paul/Desktop/tema/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/Desktop/Teme-IEP/build/CMakeFiles /home/paul/Desktop/Teme-IEP/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/Desktop/tema/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/Desktop/Teme-IEP/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,6 +201,19 @@ racheta/fast:
 .PHONY : racheta/fast
 
 #=============================================================================
+# Target rules for targets named masina
+
+# Build rule for target.
+masina: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 masina
+.PHONY : masina
+
+# fast build rule for target.
+masina/fast:
+	$(MAKE) $(MAKESILENT) -f src/imp/CMakeFiles/masina.dir/build.make src/imp/CMakeFiles/masina.dir/build
+.PHONY : masina/fast
+
+#=============================================================================
 # Target rules for targets named avion
 
 # Build rule for target.
@@ -214,17 +227,30 @@ avion/fast:
 .PHONY : avion/fast
 
 #=============================================================================
-# Target rules for targets named masina
+# Target rules for targets named mijloc
 
 # Build rule for target.
-masina: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 masina
-.PHONY : masina
+mijloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mijloc
+.PHONY : mijloc
 
 # fast build rule for target.
-masina/fast:
-	$(MAKE) $(MAKESILENT) -f src/imp/CMakeFiles/masina.dir/build.make src/imp/CMakeFiles/masina.dir/build
-.PHONY : masina/fast
+mijloc/fast:
+	$(MAKE) $(MAKESILENT) -f src/imp/CMakeFiles/mijloc.dir/build.make src/imp/CMakeFiles/mijloc.dir/build
+.PHONY : mijloc/fast
+
+#=============================================================================
+# Target rules for targets named aeronava
+
+# Build rule for target.
+aeronava: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aeronava
+.PHONY : aeronava
+
+# fast build rule for target.
+aeronava/fast:
+	$(MAKE) $(MAKESILENT) -f src/imp/CMakeFiles/aeronava.dir/build.make src/imp/CMakeFiles/aeronava.dir/build
+.PHONY : aeronava/fast
 
 src/main/main.o: src/main/main.cpp.o
 .PHONY : src/main/main.o
@@ -262,10 +288,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... aeronava"
 	@echo "... avion"
 	@echo "... exe"
 	@echo "... hovercraft"
 	@echo "... masina"
+	@echo "... mijloc"
 	@echo "... racheta"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/paul/Desktop/tema/src/imp/hovercraft.cpp" "src/imp/CMakeFiles/hovercraft.dir/hovercraft.cpp.o" "gcc" "src/imp/CMakeFiles/hovercraft.dir/hovercraft.cpp.o.d"
+  "/home/paul/Desktop/Teme-IEP/src/imp/hovercraft.cpp" "src/imp/CMakeFiles/hovercraft.dir/hovercraft.cpp.o" "gcc" "src/imp/CMakeFiles/hovercraft.dir/hovercraft.cpp.o.d"
   )
 
 # Targets to which this target links.

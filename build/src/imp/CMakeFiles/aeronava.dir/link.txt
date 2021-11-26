@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaeronava.a CMakeFiles/aeronava.dir/aeronava.cpp.o
+/usr/bin/ranlib libaeronava.a
