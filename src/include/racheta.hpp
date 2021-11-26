@@ -1,12 +1,15 @@
 #pragma once
+#include "aeronava.hpp"
 
-class Racheta{
+class Racheta:public Aeronava {
 	private:
 		int size_serie;//dimensiunea seriei rachetei
 		char* serie;//seria rachetei
 		short componente;
 		long double carburant;
 		int astronauti;
+		void m_copy(const Racheta&);
+		void m_move(Racheta&&);
 	public:
 		Racheta();//default constructor
 		Racheta(int,char*,short,long double,int);
@@ -15,7 +18,7 @@ class Racheta{
 		~Racheta();//destructor
 		Racheta& operator=(const Racheta&);//copy assignment operator
 		Racheta& operator=(Racheta&&);//move assignment operator
-		void afiseaza();
+		void afiseaza() override;
 		//getter-e si setter-e
 		//setter-e:
 		void setSize_serie(int);
