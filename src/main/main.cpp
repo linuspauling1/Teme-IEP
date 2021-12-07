@@ -1,9 +1,8 @@
-#include "masina.hpp"
 #include "avion.hpp"
 #include "racheta.hpp"
-#include "hovercraft.hpp"
 #include "lacat.hpp"
 #include "siruri.hpp"
+#include "ciclu.hpp"
 #include <utility>
 
 int main(){
@@ -56,5 +55,7 @@ int main(){
 	functie();
 	std::cout << std::endl;
 	procedura();
+	std::cout << std::endl;
+	testam();
 	return 0;
 }
