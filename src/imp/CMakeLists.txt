@@ -20,3 +20,9 @@ target_link_libraries(racheta aeronava)
 #hovercraft
 add_library(hovercraft STATIC hovercraft.cpp)
 target_include_directories(hovercraft PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../include)
+#lacat
+add_library(lacat STATIC lacat.cpp)
+target_include_directories(lacat PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../include)
+#siruri
+add_library(siruri STATIC siruri.cpp)
+target_include_directories(siruri PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../include)

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmasina.a CMakeFiles/masina.dir/masina.cpp.o
-/usr/bin/ranlib libmasina.a

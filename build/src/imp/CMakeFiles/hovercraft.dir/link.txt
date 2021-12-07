@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhovercraft.a CMakeFiles/hovercraft.dir/hovercraft.cpp.o
-/usr/bin/ranlib libhovercraft.a

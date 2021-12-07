@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmijloc.a CMakeFiles/mijloc.dir/aeronava.cpp.o
-/usr/bin/ranlib libmijloc.a

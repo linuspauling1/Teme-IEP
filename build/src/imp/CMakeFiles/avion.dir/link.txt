@@ -1,2 +1,0 @@
-/usr/bin/ar qc libavion.a CMakeFiles/avion.dir/avion.cpp.o
-/usr/bin/ranlib libavion.a
